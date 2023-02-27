@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginBondex</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f57cf444-acb2-4c1f-8337-fcb364f81fbe</testSuiteGuid>
+   <testCaseLink>
+      <guid>407d2fff-3df4-4017-bda9-695cf7c3aabe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/NewLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3325d38b-9c26-4a3d-9a47-b156633329d5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BondexThanh</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3325d38b-9c26-4a3d-9a47-b156633329d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>9ba46320-6a41-40ae-a61f-c209d73a8e0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3325d38b-9c26-4a3d-9a47-b156633329d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>c7b02084-1b34-4739-8dd9-d974506bf6be</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d6a999a-87ca-4001-a17b-317cfe18a924</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewLoginThanh</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>905e5075-73a8-4bf5-86f7-29ea899f3461</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BondexThanh</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>905e5075-73a8-4bf5-86f7-29ea899f3461</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>2a82f76a-d436-445e-970b-d16169aa2fc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>905e5075-73a8-4bf5-86f7-29ea899f3461</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>135be93d-1762-4c77-91ab-0b5f2066fe2f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
