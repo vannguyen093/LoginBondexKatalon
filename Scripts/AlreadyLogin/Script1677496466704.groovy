@@ -39,17 +39,17 @@ Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (4)'), 0
 
 Mobile.tap(findTestObject('Object Repository/New/android.view.ViewGroup (4)'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (5)'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSetting'), 0)
 
-Mobile.tap(findTestObject('Object Repository/New/android.view.ViewGroup (5)'), 0)
+Mobile.tap(findTestObject('FirstLogin/btnSetting'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.widget.TextView - Log out'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnLogout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/New/android.widget.TextView - Log out'), 0)
+Mobile.tap(findTestObject('FirstLogin/btnLogout'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.widget.TextView - Yes'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnYes'), 0)
 
-Mobile.tap(findTestObject('Object Repository/New/android.widget.TextView - Yes'), 0)
+Mobile.tap(findTestObject('FirstLogin/btnYes'), 0)
 
 Mobile.closeApplication()
 

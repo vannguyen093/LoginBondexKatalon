@@ -14,11 +14,20 @@
    <testCaseLink>
       <guid>407d2fff-3df4-4017-bda9-695cf7c3aabe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/NewLogin</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AlreadyLogin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3325d38b-9c26-4a3d-9a47-b156633329d5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BondexMon</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>443864ea-a1ff-4588-a18d-8a906b00ad88</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,13 +36,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>3325d38b-9c26-4a3d-9a47-b156633329d5</testDataLinkId>
+         <testDataLinkId>443864ea-a1ff-4588-a18d-8a906b00ad88</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>id</value>
          <variableId>9ba46320-6a41-40ae-a61f-c209d73a8e0b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3325d38b-9c26-4a3d-9a47-b156633329d5</testDataLinkId>
+         <testDataLinkId>443864ea-a1ff-4588-a18d-8a906b00ad88</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>c7b02084-1b34-4739-8dd9-d974506bf6be</variableId>
@@ -42,26 +51,26 @@
    <testCaseLink>
       <guid>0d6a999a-87ca-4001-a17b-317cfe18a924</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/NewLoginThanh</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FirstLogin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>905e5075-73a8-4bf5-86f7-29ea899f3461</id>
+         <id>655823a4-131e-489a-88b1-ef5633fb3b78</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/BondexThanh</testDataId>
+         <testDataId>Data Files/BondexMon</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>905e5075-73a8-4bf5-86f7-29ea899f3461</testDataLinkId>
+         <testDataLinkId>655823a4-131e-489a-88b1-ef5633fb3b78</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>id</value>
          <variableId>2a82f76a-d436-445e-970b-d16169aa2fc5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>905e5075-73a8-4bf5-86f7-29ea899f3461</testDataLinkId>
+         <testDataLinkId>655823a4-131e-489a-88b1-ef5633fb3b78</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>135be93d-1762-4c77-91ab-0b5f2066fe2f</variableId>
