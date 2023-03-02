@@ -4,7 +4,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 
 Mobile.startExistingApplication('com.bondex.origin')
 
-Mobile.waitForElementPresent(findTestObject('BondexThanh/android.widget.TextView - Log in'), 0)
+Mobile.waitForElementPresent(findTestObject('BondexThanh/android.widget.TextView - Log in'), 5)
 
 Mobile.tap(findTestObject('Object Repository/BondexThanh/android.widget.TextView - Log in'), 0)
 
@@ -12,59 +12,59 @@ Mobile.setText(findTestObject('Object Repository/BondexThanh/android.widget.Edit
 
 Mobile.setText(findTestObject('Object Repository/BondexThanh/android.widget.EditText - Password'), pass, 0)
 
-Mobile.waitForElementPresent(findTestObject('BondexThanh/android.view.ViewGroup'), 0)
+Mobile.waitForElementPresent(findTestObject('BondexThanh/android.view.ViewGroup'), 5)
 
 Mobile.tap(findTestObject('Object Repository/BondexThanh/android.view.ViewGroup'), 0)
 
-Mobile.waitForElementPresent(findTestObject('BondexThanh/android.view.ViewGroup (1)'), 0)
+Mobile.waitForElementPresent(findTestObject('BondexThanh/android.view.ViewGroup (1)'), 5)
 
 Mobile.tap(findTestObject('Object Repository/BondexThanh/android.view.ViewGroup (1)'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnIndustrySelect'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnIndustrySelect'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnIndustrySelect'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnAdminSupport'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnAdminSupport'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnAdminSupport'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSubindustrySelect'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSubindustrySelect'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnSubindustrySelect'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnDataEntry'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnDataEntry'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnDataEntry'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNext'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNext'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnNext'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnFulltime'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnFulltime'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnFulltime'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNext2'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNext2'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnNext2'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNo'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnNo'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnNo'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnClose'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnClose'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnClose'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSetting'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSetting'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnSetting'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnLogout'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnLogout'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnLogout'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnYes'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnYes'), 5)
 
 Mobile.tap(findTestObject('FirstLogin/btnYes'), 0)
 

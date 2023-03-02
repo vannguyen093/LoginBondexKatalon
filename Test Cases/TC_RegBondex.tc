@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RegBondex</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fe1e043-58ef-470c-8d94-48ee51d7086b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d52fb39-116b-45eb-8afc-e11551af01fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5be8ed8a-f9eb-4642-ba58-84b8da4b5d73</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a317ef6a-fa87-4bfd-bf44-e3b1e275725e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d52fb39-116b-45eb-8afc-e11551af01fc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5be8ed8a-f9eb-4642-ba58-84b8da4b5d73</id>
+      <masked>false</masked>
+      <name>pass1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a317ef6a-fa87-4bfd-bf44-e3b1e275725e</id>
+      <masked>false</masked>
+      <name>pass2</name>
+   </variable>
+</TestCaseEntity>

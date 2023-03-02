@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.bondex.origin')
+Mobile.startExistingApplication('com.bondex.origin', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('New/android.widget.TextView - Log in'), 0)
+Mobile.waitForElementPresent(findTestObject('New/android.widget.TextView - Log in'), 3)
 
 Mobile.tap(findTestObject('Object Repository/New/android.widget.TextView - Log in'), 0)
 
@@ -27,27 +27,27 @@ Mobile.setText(findTestObject('Object Repository/New/android.widget.EditText - E
 
 Mobile.setText(findTestObject('Object Repository/New/android.widget.EditText - Password'), pass, 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup'), 0)
+Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup'), 3)
 
 Mobile.tap(findTestObject('Object Repository/New/android.view.ViewGroup'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (1)'), 0)
+Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (1)'), 3)
 
 Mobile.tap(findTestObject('Object Repository/New/android.view.ViewGroup (1)'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (4)'), 0)
+Mobile.waitForElementPresent(findTestObject('New/android.view.ViewGroup (4)'), 3)
 
 Mobile.tap(findTestObject('Object Repository/New/android.view.ViewGroup (4)'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSetting'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnSetting'), 3)
 
 Mobile.tap(findTestObject('FirstLogin/btnSetting'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnLogout'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnLogout'), 3)
 
 Mobile.tap(findTestObject('FirstLogin/btnLogout'), 0)
 
-Mobile.waitForElementPresent(findTestObject('FirstLogin/btnYes'), 0)
+Mobile.waitForElementPresent(findTestObject('FirstLogin/btnYes'), 3)
 
 Mobile.tap(findTestObject('FirstLogin/btnYes'), 0)
 

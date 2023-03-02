@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_RegBondex</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>32e4b91d-0018-4fc8-9c1c-fb50c935ad55</testSuiteGuid>
+   <testCaseLink>
+      <guid>ad3b5690-f654-4073-90af-b555300f6320</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_RegBondex</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58c9cd8c-c607-4d58-8b47-65c9c1a94a17</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_BondexMon</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>58c9cd8c-c607-4d58-8b47-65c9c1a94a17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>3d52fb39-116b-45eb-8afc-e11551af01fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58c9cd8c-c607-4d58-8b47-65c9c1a94a17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass1</value>
+         <variableId>5be8ed8a-f9eb-4642-ba58-84b8da4b5d73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58c9cd8c-c607-4d58-8b47-65c9c1a94a17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass2</value>
+         <variableId>a317ef6a-fa87-4bfd-bf44-e3b1e275725e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

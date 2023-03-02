@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AlreadyLogin</name>
+   <name>TC_FirstLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5be0ad14-b398-4816-96b8-3422419d0f7c</testCaseGuid>
+   <testCaseGuid>d72b9c4a-01be-49a6-bbf1-ce2c324606f0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9ba46320-6a41-40ae-a61f-c209d73a8e0b</variableId>
+      <variableId>2a82f76a-d436-445e-970b-d16169aa2fc5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7b02084-1b34-4739-8dd9-d974506bf6be</variableId>
+      <variableId>135be93d-1762-4c77-91ab-0b5f2066fe2f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9ba46320-6a41-40ae-a61f-c209d73a8e0b</id>
+      <id>2a82f76a-d436-445e-970b-d16169aa2fc5</id>
       <masked>false</masked>
       <name>id</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7b02084-1b34-4739-8dd9-d974506bf6be</id>
+      <id>135be93d-1762-4c77-91ab-0b5f2066fe2f</id>
       <masked>false</masked>
       <name>pass</name>
    </variable>
